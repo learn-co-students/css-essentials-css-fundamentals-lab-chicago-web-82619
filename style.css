@@ -3,3 +3,21 @@ body {
   height: 100%;
   margin: 0;
 }
+header,
+section#featured-property,
+figure {
+  text-align: center;
+}
+
+section#featured-property p {
+  width: 800px;
+  display: inline-block;
+  text-align: center;
+}
+
+section#details div{
+  float: left;
+  background-color: red;
+  text-align: center;
+  width: 25%;
+}
